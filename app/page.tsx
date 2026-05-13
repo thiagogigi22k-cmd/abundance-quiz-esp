@@ -1,12 +1,14 @@
 "use client"
 
 import type React from "react"
-import { useState } from "react"
+import { useState, useRef } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 
 export default function Home() {
   const [name, setName] = useState("")
+  const [isFocused, setIsFocused] = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
   const router = useRouter()
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -56,19 +58,31 @@ export default function Home() {
         </div>
 
         <form onSubmit={handleSubmit} className="w-full mb-6 relative z-30">
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            onTouchStart={(e) => (e.target as HTMLInputElement).focus()}
-            placeholder="Enter your name here"
-            autoComplete="off"
-            style={{ 
-              backgroundColor: '#f5f5f5',
-              color: '#1a1a1a'
-            }}
-            className="w-full border-2 border-[#D4AF37] rounded-lg py-3 px-4 text-center text-lg mb-4 outline-none focus:ring-2 focus:ring-[#D4AF37] placeholder:text-gray-500 placeholder:opacity-100 relative z-30 cursor-text"
-          />
+          <div className="relative mb-4">
+            <input
+              ref={inputRef}
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              onFocus={() => setIsFocused(true)}
+              onBlur={() => setIsFocused(false)}
+              onTouchStart={(e) => (e.target as HTMLInputElement).focus()}
+              autoComplete="off"
+              style={{ 
+                backgroundColor: '#f5f5f5',
+                color: '#1a1a1a'
+              }}
+              className="w-full border-2 border-[#D4AF37] rounded-lg py-3 px-4 text-center text-lg outline-none focus:ring-2 focus:ring-[#D4AF37] relative z-30 cursor-text"
+            />
+            {!name && !isFocused && (
+              <div 
+                className="absolute inset-0 flex items-center justify-center pointer-events-none z-40"
+                onClick={() => inputRef.current?.focus()}
+              >
+                <span className="text-gray-500 text-lg">Enter your name here</span>
+              </div>
+            )}
+          </div>
 
           <p className="text-sm md:text-base text-[#D4AF37] mb-6">
             Enter your name to begin your manifestation journey.
