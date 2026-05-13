@@ -149,3 +149,13 @@
 .animate-soft-pulse {
   animation: soft-pulse 2.5s ease-in-out infinite;
 }
+
+/* Fix placeholder visibility */
+input::placeholder {
+  opacity: 1 !important;
+  color: #888 !important;
+}
+
+input:focus::placeholder {
+  opacity: 0.5 !important;
+}
