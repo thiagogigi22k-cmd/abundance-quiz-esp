@@ -40,285 +40,285 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
   { type: "unlocked" },
   {
     type: "question",
-    question: "{name}, do you feel like you're living the life God dreamed for you?",
-    options: ["Yes, but I know I can live more", "No, I feel I'm far from it", "Sometimes I wonder about this..."],
-    badge: "Financial Awakening",
+    question: "{name}, ¿sientes que estás viviendo la vida que Dios soñó para ti?",
+    options: ["Sí, pero sé que puedo vivir más", "No, siento que estoy lejos de eso", "A veces me pregunto sobre esto..."],
+    badge: "Despertar Financiero",
     progress: 10,
   },
   {
     type: "question",
-    question: "How often do you feel an emptiness in your chest... as if something is missing?",
-    options: ["Every day", "A few times a week", "Rarely"],
-    badge: "Financial Awakening",
+    question: "¿Con qué frecuencia sientes un vacío en tu pecho... como si algo faltara?",
+    options: ["Todos los días", "Algunas veces a la semana", "Raramente"],
+    badge: "Despertar Financiero",
     progress: 14,
   },
   {
     type: "question",
-    question: "Do you feel stuck in the same negative cycles for years?",
-    options: ["Yes, it feels like a loop", "Sometimes I feel this", "I'm not sure"],
-    badge: "Financial Awakening",
+    question: "¿Te sientes atrapado/a en los mismos ciclos negativos durante años?",
+    options: ["Sí, se siente como un bucle", "A veces siento esto", "No estoy seguro/a"],
+    badge: "Despertar Financiero",
     progress: 19,
   },
   {
     type: "question",
-    question: "If the life you live today was the direct result of your own choices... would you be satisfied?",
-    options: ["No, I want to change", "More or less", "Yes, but I want more"],
-    badge: "Financial Awakening",
+    question: "Si la vida que vives hoy fuera el resultado directo de tus propias decisiones... ¿estarías satisfecho/a?",
+    options: ["No, quiero cambiar", "Más o menos", "Sí, pero quiero más"],
+    badge: "Despertar Financiero",
     progress: 24,
   },
   {
     type: "unlock-screen",
-    title: "I Choose My Future",
-    description: "The power to change your life is in your hands!",
+    title: "Yo Elijo Mi Futuro",
+    description: "¡El poder de cambiar tu vida está en tus manos!",
     image: "/images/man-silhouette-stars.jpg",
   },
   {
     type: "question",
-    question: "How many times have you asked God for a sign to change your life?",
-    options: ["Many times", "A few times", "I don't usually ask for signs", "This is my first time"],
-    badge: "Faith & Spiritual Purpose",
+    question: "¿Cuántas veces le has pedido a Dios una señal para cambiar tu vida?",
+    options: ["Muchas veces", "Algunas veces", "No suelo pedir señales", "Esta es mi primera vez"],
+    badge: "Fe y Propósito Espiritual",
     progress: 29,
   },
   {
     type: "question",
-    question: "{name}, if today were your final faith test... what would you do right now?",
+    question: "{name}, si hoy fuera tu prueba final de fe... ¿qué harías ahora mismo?",
     options: [
-      "I would take action like someone who believes in miracles",
-      "I'd take a small, scared step... but still take a step",
-      "I'd stay frozen... one more time... just like the other times I gave up",
+      "Tomaría acción como alguien que cree en milagros",
+      "Daría un pequeño paso con miedo... pero aún así daría un paso",
+      "Me quedaría paralizado/a... una vez más... como las otras veces que me rendí",
     ],
-    badge: "Faith & Spiritual Purpose",
+    badge: "Fe y Propósito Espiritual",
     progress: 33,
   },
   {
     type: "question",
-    question: "Do you believe God can transform your life with just one single decision from you?",
-    options: ["Yes, absolutely", "I have doubts", "I don't know"],
-    badge: "Faith & Spiritual Purpose",
+    question: "¿Crees que Dios puede transformar tu vida con una sola decisión tuya?",
+    options: ["Sí, absolutamente", "Tengo dudas", "No lo sé"],
+    badge: "Fe y Propósito Espiritual",
     progress: 38,
   },
   {
     type: "question",
-    question: "Are you willing to make TODAY your day of faith and responsibility for your new life?",
-    options: ["Yes, I'm ready", "I need a clearer sign", "No"],
-    badge: "Faith & Spiritual Purpose",
+    question: "¿Estás dispuesto/a a hacer de HOY tu día de fe y responsabilidad por tu nueva vida?",
+    options: ["Sí, estoy listo/a", "Necesito una señal más clara", "No"],
+    badge: "Fe y Propósito Espiritual",
     progress: 43,
   },
   {
     type: "unlock-screen",
-    title: "Faith Decision",
-    description: "Your Faith Will Move Mountains",
+    title: "Decisión de Fe",
+    description: "Tu Fe Moverá Montañas",
     image: "/images/praying-hands.jpg",
   },
   {
     type: "question",
-    question: "If God gave you the chance to win your dream home... what would it look like?",
-    options: ["Large, with several rooms", "A modern apartment", "A simple house, but full of peace", "I don't think much about it"],
-    badge: "Future Visualization",
+    question: "Si Dios te diera la oportunidad de ganar la casa de tus sueños... ¿cómo sería?",
+    options: ["Grande, con varias habitaciones", "Un apartamento moderno", "Una casa sencilla, pero llena de paz", "No pienso mucho en eso"],
+    badge: "Visualización del Futuro",
     progress: 48,
   },
   {
     type: "unlock-screen",
-    title: "Dream Home",
-    description: "Your Dream Home Is on Its Way",
+    title: "Casa Soñada",
+    description: "Tu Casa Soñada Está en Camino",
     image: "/images/dream-home.jpg",
   },
   {
     type: "question",
-    question: "What car do you imagine parked in front of your ideal home?",
-    options: ["A luxury SUV", "A comfortable sedan", "A simple but reliable car", "I don't care about cars"],
-    badge: "Future Visualization",
+    question: "¿Qué auto imaginas estacionado frente a tu hogar ideal?",
+    options: ["Un SUV de lujo", "Un sedán cómodo", "Un auto sencillo pero confiable", "No me importan los autos"],
+    badge: "Visualización del Futuro",
     progress: 52,
   },
   {
     type: "unlock-screen",
-    title: "Dream Car",
-    description: "Your Dream Car Is Reserved",
+    title: "Auto Soñado",
+    description: "Tu Auto Soñado Está Reservado",
     image: "/images/dream-car.jpg",
   },
   {
     type: "question",
-    question: "What is your family life like today?",
+    question: "¿Cómo es tu vida familiar hoy?",
     options: [
-      "I feel there's a lack of unity",
-      "I miss someone special",
-      "I have a good family, but we can be happier",
-      "I don't think much about it",
+      "Siento que falta unidad",
+      "Extraño a alguien especial",
+      "Tengo una buena familia, pero podemos ser más felices",
+      "No pienso mucho en eso",
     ],
-    badge: "Future Visualization",
+    badge: "Visualización del Futuro",
     progress: 57,
   },
   {
     type: "unlock-screen",
-    title: "Happy Family",
-    description: "The Happy Family You Deserve",
+    title: "Familia Feliz",
+    description: "La Familia Feliz Que Mereces",
     image: "/images/happy-family.jpg",
   },
   {
     type: "question",
-    question: "If you could wake up tomorrow with perfect health... what would be different?",
+    question: "Si pudieras despertar mañana con salud perfecta... ¿qué sería diferente?",
     options: [
-      "More energy to chase my dreams",
-      "Being able to play sports without pain",
-      "Feeling good about my body",
-      "My health is good, but I want more vitality",
+      "Más energía para perseguir mis sueños",
+      "Poder hacer deportes sin dolor",
+      "Sentirme bien con mi cuerpo",
+      "Mi salud es buena, pero quiero más vitalidad",
     ],
-    badge: "Future Visualization",
+    badge: "Visualización del Futuro",
     progress: 62,
   },
   {
     type: "unlock-screen",
-    title: "Perfect Health",
-    description: "Your Perfect Health Is Activated",
+    title: "Salud Perfecta",
+    description: "Tu Salud Perfecta Está Activada",
     image: "/images/perfect-health.jpg",
   },
   {
     type: "question",
-    question: "If you received a large sum of money today... what would you do first?",
-    options: ["Pay off my debts", "Buy a house", "Fulfill my family's dream", "Invest in my future"],
-    badge: "Future Visualization",
+    question: "Si recibieras una gran suma de dinero hoy... ¿qué harías primero?",
+    options: ["Pagar mis deudas", "Comprar una casa", "Cumplir el sueño de mi familia", "Invertir en mi futuro"],
+    badge: "Visualización del Futuro",
     progress: 67,
   },
   {
     type: "unlock-screen",
-    title: "Abundance",
-    description: "Imagine... $277,000 being deposited into your account right now!",
+    title: "Abundancia",
+    description: "¡Imagina... $277,000 siendo depositados en tu cuenta ahora mismo!",
     image: "/images/abundance.jpg",
-    buttonText: "YES! I believe, I receive!",
+    buttonText: "¡SÍ! ¡Creo, recibo!",
   },
   {
     type: "motivational",
     title: "{name}",
-    description: "Your manifestation potential depends on your choice, think big to manifest big things, you are the size of your courage.",
+    description: "Tu potencial de manifestación depende de tu elección, piensa en grande para manifestar cosas grandes, eres del tamaño de tu coraje.",
     image: "/images/abundance.jpg",
-    buttonText: "Continue Journey",
+    buttonText: "Continuar Viaje",
     addToBalance: 2000000,
   },
   {
     type: "question",
-    question: "Imagine that 30 days from now, your life is 100% transformed. Which of these images represents your future?",
+    question: "Imagina que dentro de 30 días, tu vida está 100% transformada. ¿Cuál de estas imágenes representa tu futuro?",
     options: [
-      "Luxury home and financial freedom",
-      "Perfect health and vitality",
-      "Happy family and love",
-      "Travel and new experiences",
+      "Casa de lujo y libertad financiera",
+      "Salud perfecta y vitalidad",
+      "Familia feliz y amor",
+      "Viajes y nuevas experiencias",
     ],
-    badge: "Future Visualization",
+    badge: "Visualización del Futuro",
     progress: 71,
   },
   {
     type: "unlock-screen",
-    title: "100x Boost",
-    description: "Your Manifestation Power Just Multiplied by 100x",
+    title: "Impulso 100x",
+    description: "Tu Poder de Manifestación Se Multiplicó por 100x",
     image: "/images/100x-boost.jpg",
   },
   {
     type: "question",
-    question: "Do you feel there's something spiritual or emotional blocking you?",
-    options: ["Yes, a weight I can't explain", "Sometimes I feel this", "No"],
-    badge: "Breaking Blocks",
+    question: "¿Sientes que hay algo espiritual o emocional bloqueándote?",
+    options: ["Sí, un peso que no puedo explicar", "A veces siento esto", "No"],
+    badge: "Rompiendo Bloqueos",
     progress: 76,
   },
   {
     type: "question",
-    question: "Which of these statements best describes you?",
+    question: "¿Cuál de estas afirmaciones te describe mejor?",
     options: [
-      "I feel cursed, nothing ever works out for me",
-      "My life has never been easy",
-      "I don't feel worthy",
-      "I lack energy and motivation",
+      "Me siento maldecido/a, nada me sale bien",
+      "Mi vida nunca ha sido fácil",
+      "No me siento merecedor/a",
+      "Me falta energía y motivación",
     ],
-    badge: "Breaking Blocks",
+    badge: "Rompiendo Bloqueos",
     progress: 81,
   },
   {
     type: "unlock-screen",
-    title: "Blocks Broken",
-    description: "All Mental Blocks Have Been Removed",
+    title: "Bloqueos Rotos",
+    description: "Todos los Bloqueos Mentales Han Sido Eliminados",
     image: "/images/blocks-broken.jpg",
   },
   {
     type: "question",
-    question: "Do you accept to be part of a group of people who decided to create their dream life through the power of faith?",
-    options: ["Yes, I accept", "I'm not sure", "I need to think about it"],
-    badge: "Final Choice",
+    question: "¿Aceptas ser parte de un grupo de personas que decidieron crear la vida de sus sueños a través del poder de la fe?",
+    options: ["Sí, acepto", "No estoy seguro/a", "Necesito pensarlo"],
+    badge: "Elección Final",
     progress: 86,
   },
   {
     type: "question",
-    question: "If you could change just one thing right now... what would it be?",
-    options: ["My financial situation", "My relationships", "My health", "My purpose in life"],
-    badge: "Final Choice",
+    question: "Si pudieras cambiar solo una cosa ahora mismo... ¿qué sería?",
+    options: ["Mi situación financiera", "Mis relaciones", "Mi salud", "Mi propósito de vida"],
+    badge: "Elección Final",
     progress: 90,
   },
   {
     type: "question",
-    question: "If God gave you the chance to start over today... would you accept?",
-    options: ["Yes, without hesitation", "Yes, but with some fear", "I'm not ready"],
-    badge: "Final Choice",
+    question: "Si Dios te diera la oportunidad de comenzar de nuevo hoy... ¿aceptarías?",
+    options: ["Sí, sin dudarlo", "Sí, pero con algo de miedo", "No estoy listo/a"],
+    badge: "Elección Final",
     progress: 95,
   },
   {
     type: "question",
-    question: 'To finish... complete this sentence:\n"From today onwards..."',
+    question: 'Para terminar... completa esta frase:\n"A partir de hoy..."',
     options: [
-      "I choose to live in abundance",
-      "I accept the destiny God has reserved for me",
-      "I free myself from everything that was blocking me",
+      "Elijo vivir en abundancia",
+      "Acepto el destino que Dios ha reservado para mí",
+      "Me libero de todo lo que me estaba bloqueando",
     ],
-    badge: "Final Choice",
+    badge: "Elección Final",
     progress: 100,
   },
   { type: "final" },
 ]
 
 const achievements = [
-  { name: "I Choose My Future", image: "/images/man-silhouette-stars.jpg", unlockedAtStep: 7 },
-  { name: "Faith Decision", image: "/images/praying-hands.jpg", unlockedAtStep: 12 },
-  { name: "Dream Home", image: "/images/dream-home.jpg", unlockedAtStep: 14 },
-  { name: "Dream Car", image: "/images/dream-car.jpg", unlockedAtStep: 16 },
-  { name: "Happy Family", image: "/images/happy-family.jpg", unlockedAtStep: 18 },
-  { name: "Perfect Health", image: "/images/perfect-health.jpg", unlockedAtStep: 20 },
-  { name: "Abundance", image: "/images/abundance.jpg", unlockedAtStep: 22 },
-  { name: "100x Boost", image: "/images/100x-boost.jpg", unlockedAtStep: 25 },
-  { name: "Blocks Broken", image: "/images/blocks-broken.jpg", unlockedAtStep: 28 },
-  { name: "100x Multiplication", image: "/images/100x-multiplication.jpg", unlockedAtStep: 2 },
+  { name: "Yo Elijo Mi Futuro", image: "/images/man-silhouette-stars.jpg", unlockedAtStep: 7 },
+  { name: "Decisión de Fe", image: "/images/praying-hands.jpg", unlockedAtStep: 12 },
+  { name: "Casa Soñada", image: "/images/dream-home.jpg", unlockedAtStep: 14 },
+  { name: "Auto Soñado", image: "/images/dream-car.jpg", unlockedAtStep: 16 },
+  { name: "Familia Feliz", image: "/images/happy-family.jpg", unlockedAtStep: 18 },
+  { name: "Salud Perfecta", image: "/images/perfect-health.jpg", unlockedAtStep: 20 },
+  { name: "Abundancia", image: "/images/abundance.jpg", unlockedAtStep: 22 },
+  { name: "Impulso 100x", image: "/images/100x-boost.jpg", unlockedAtStep: 25 },
+  { name: "Bloqueos Rotos", image: "/images/blocks-broken.jpg", unlockedAtStep: 28 },
+  { name: "Multiplicación 100x", image: "/images/100x-multiplication.jpg", unlockedAtStep: 2 },
 ]
 
 const notifications = [
-  { emoji: "\u{1F3E0}", text: "Manifesting your dream home in the spiritual realm..." },
-  { emoji: "\u{1F697}", text: "Reserving your ideal car..." },
-  { emoji: "\u{1F468}\u200D\u{1F469}\u200D\u{1F467}", text: "Aligning your family happiness..." },
-  { emoji: "\u{1F497}", text: "Activating perfect health protocols..." },
-  { emoji: "\u{1F513}", text: "Breaking spiritual and emotional blocks..." },
-  { emoji: "\u{1F31F}", text: "Preparing your 100x manifestation boost..." },
-  { emoji: "\u{1F4B0}", text: "Unlocking abundance channels..." },
-  { emoji: "\u2728", text: "Finalizing your divine script..." },
+  { emoji: "\u{1F3E0}", text: "Manifestando tu casa soñada en el reino espiritual..." },
+  { emoji: "\u{1F697}", text: "Reservando tu auto ideal..." },
+  { emoji: "\u{1F468}\u200D\u{1F469}\u200D\u{1F467}", text: "Alineando tu felicidad familiar..." },
+  { emoji: "\u{1F497}", text: "Activando protocolos de salud perfecta..." },
+  { emoji: "\u{1F513}", text: "Rompiendo bloqueos espirituales y emocionales..." },
+  { emoji: "\u{1F31F}", text: "Preparando tu impulso de manifestación 100x..." },
+  { emoji: "\u{1F4B0}", text: "Desbloqueando canales de abundancia..." },
+  { emoji: "\u2728", text: "Finalizando tu guion divino..." },
 ]
 
 const portals = [
-  { name: "I Choose My Future", image: "/images/man-silhouette-stars.jpg" },
-  { name: "Faith Decision", image: "/images/praying-hands.jpg" },
-  { name: "Dream Home", image: "/images/dream-home.jpg" },
-  { name: "Dream Car", image: "/images/dream-car.jpg" },
-  { name: "Happy Family", image: "/images/happy-family.jpg" },
-  { name: "Perfect Health", image: "/images/perfect-health.jpg" },
-  { name: "Abundance", image: "/images/abundance.jpg" },
-  { name: "100x Boost", image: "/images/100x-boost.jpg" },
-  { name: "Blocks Broken", image: "/images/blocks-broken.jpg" },
-  { name: "100x Multiplication", image: "/images/100x-multiplication.jpg" },
+  { name: "Yo Elijo Mi Futuro", image: "/images/man-silhouette-stars.jpg" },
+  { name: "Decisión de Fe", image: "/images/praying-hands.jpg" },
+  { name: "Casa Soñada", image: "/images/dream-home.jpg" },
+  { name: "Auto Soñado", image: "/images/dream-car.jpg" },
+  { name: "Familia Feliz", image: "/images/happy-family.jpg" },
+  { name: "Salud Perfecta", image: "/images/perfect-health.jpg" },
+  { name: "Abundancia", image: "/images/abundance.jpg" },
+  { name: "Impulso 100x", image: "/images/100x-boost.jpg" },
+  { name: "Bloqueos Rotos", image: "/images/blocks-broken.jpg" },
+  { name: "Multiplicación 100x", image: "/images/100x-multiplication.jpg" },
 ]
 
 export default function UnifiedQuiz() {
   const searchParams = useSearchParams()
   const [currentStep, setCurrentStep] = useState(0)
-  const [name, setName] = useState(searchParams.get("name") || "Friend")
+  const [name, setName] = useState(searchParams.get("name") || "Amigo/a")
   const [amount, setAmount] = useState("")
   const [balance, setBalance] = useState(0)
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const [progress, setProgress] = useState(0)
-  const [statusText, setStatusText] = useState("Starting transformation...")
+  const [statusText, setStatusText] = useState("Iniciando transformación...")
   const [isComplete, setIsComplete] = useState(false)
   const [visibleNotifications, setVisibleNotifications] = useState<Array<{ id: number; index: number }>>([])
   const [cardAnimationIndex, setCardAnimationIndex] = useState(-1)
@@ -330,9 +330,9 @@ export default function UnifiedQuiz() {
   const vturbRef = useRef<HTMLDivElement>(null)
   const offerRef = useRef<HTMLDivElement>(null)
 
-  const currentDate = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
+  const currentDate = new Date().toLocaleDateString("es-ES", { month: "long", day: "numeric", year: "numeric" })
 
-  const formatBalance = (value: number) => value.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+  const formatBalance = (value: number) => value.toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
 
   const stepData = quizSteps[currentStep]
 
@@ -382,11 +382,11 @@ export default function UnifiedQuiz() {
     const timer = setInterval(() => {
       setProgress((prev) => {
         const np = prev + increment
-        if (np < 20) setStatusText("Starting transformation...")
-        else if (np < 40) setStatusText("Analyzing your answers...")
-        else if (np < 60) setStatusText("Aligning divine energies...")
-        else if (np < 80) setStatusText("Preparing your manifestation...")
-        else setStatusText("Finalizing your script...")
+        if (np < 20) setStatusText("Iniciando transformación...")
+        else if (np < 40) setStatusText("Analizando tus respuestas...")
+        else if (np < 60) setStatusText("Alineando energías divinas...")
+        else if (np < 80) setStatusText("Preparando tu manifestación...")
+        else setStatusText("Finalizando tu guion...")
         if (np >= 100) {
           clearInterval(timer); setIsComplete(true)
           setTimeout(() => { let idx = 0; const ct = setInterval(() => { setCardAnimationIndex(idx); idx++; if (idx >= portals.length) clearInterval(ct) }, 150) }, 300)
@@ -476,19 +476,19 @@ export default function UnifiedQuiz() {
         </div>
         <div className="w-full bg-[#0d0d1a]/95 rounded-xl border-2 border-[#D4AF37] p-5">
           <div className="flex items-start justify-between mb-5">
-            <h2 className="text-xl font-bold text-white leading-tight">{name}, before we continue...</h2>
+            <h2 className="text-xl font-bold text-white leading-tight">{name}, antes de continuar...</h2>
             <svg className="w-5 h-5 text-[#D4AF37] flex-shrink-0 ml-2 animate-spin" style={{ animationDuration: "2s" }} viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
             </svg>
           </div>
           <div className="w-full bg-transparent rounded-lg border border-[#D4AF37] p-4 mb-5">
-            <p className="text-[#D4AF37] font-semibold text-center mb-3 text-sm">Repeat this phrase out loud:</p>
-            <p className="text-white italic text-center text-base leading-relaxed">{"\"The life of my dreams begins"}<br />{"with my choice.\""}</p>
+            <p className="text-[#D4AF37] font-semibold text-center mb-3 text-sm">Repite esta frase en voz alta:</p>
+            <p className="text-white italic text-center text-base leading-relaxed">{"\"La vida de mis sueños comienza"}<br />{"con mi elección.\""}</p>
           </div>
-          <p className="text-gray-500 text-xs text-center mb-5">Only click continue after repeating it out loud.</p>
+          <p className="text-gray-500 text-xs text-center mb-5">Solo haz clic en continuar después de repetirla en voz alta.</p>
           <button onClick={handleContinue} className="w-full bg-[#F9D423] text-black font-bold py-3.5 px-6 rounded-lg text-base flex items-center justify-center gap-2 hover:bg-[#E5C31F] transition-colors">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
-            Continue Journey
+            Continuar Viaje
           </button>
         </div>
       </div>
@@ -506,11 +506,11 @@ export default function UnifiedQuiz() {
         <div className="mb-4">
           <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={80} height={80} className="object-contain" priority />
         </div>
-        <h1 className="text-[#D4AF37] text-xl font-bold text-center mb-4">Hello, {name} Your Journey has begun...</h1>
-        <p className="text-gray-400 text-sm tracking-wider mb-1">ACCOUNT BALANCE</p>
+        <h1 className="text-[#D4AF37] text-xl font-bold text-center mb-4">Hola, {name} Tu Viaje ha comenzado...</h1>
+        <p className="text-gray-400 text-sm tracking-wider mb-1">SALDO DE CUENTA</p>
         <p className="text-3xl font-bold animate-pulse-gold mb-4">$0.00</p>
         <div className="w-full max-w-sm mb-4">
-          <p className="text-[#D4AF37] text-sm italic animate-pulse-gold mb-2">Your energy is aligning with the divine...</p>
+          <p className="text-[#D4AF37] text-sm italic animate-pulse-gold mb-2">Tu energía se está alineando con lo divino...</p>
           <div className="flex justify-end mb-2"><span className="text-gray-400 text-sm">5%</span></div>
           <div className="w-full h-[6px] bg-[#0d1829] rounded-full relative overflow-hidden">
             <div className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-[10px] bg-[#F9D423] rounded-full z-10" />
@@ -519,13 +519,13 @@ export default function UnifiedQuiz() {
         </div>
         <div className="w-full max-w-sm bg-[#0d0d1a]/95 rounded-xl border-2 border-[#D4AF37] p-6 mt-2">
           <div className="flex justify-center mb-4">
-            <span className="bg-[#2a2a3e] text-gray-300 text-sm px-4 py-1.5 rounded-full">Financial Awakening</span>
+            <span className="bg-[#2a2a3e] text-gray-300 text-sm px-4 py-1.5 rounded-full">Despertar Financiero</span>
           </div>
           <h2 className="text-white text-lg font-bold text-center mb-6 leading-relaxed">
-            {name}, if you looked at your bank account today, how much would you have available?
+            {name}, si miraras tu cuenta bancaria hoy, ¿cuánto tendrías disponible?
           </h2>
-          <input type="text" inputMode="numeric" placeholder="Enter numbers only (e.g. 1500)" value={amount} onChange={(e) => setAmount(e.target.value.replace(/[^0-9]/g, ""))} className="w-full bg-white border-2 border-[#D4AF37] rounded-lg py-3.5 px-4 text-black text-center placeholder-gray-500 focus:outline-none focus:border-[#F9D423] mb-4" />
-          <button onClick={handleJourneySubmit} disabled={!amount} className="w-full bg-[#F9D423] text-black font-bold py-3.5 px-6 rounded-lg text-base hover:bg-[#E5C31F] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">Continue</button>
+          <input type="text" inputMode="numeric" placeholder="Ingresa solo números (ej. 1500)" value={amount} onChange={(e) => setAmount(e.target.value.replace(/[^0-9]/g, ""))} className="w-full bg-white border-2 border-[#D4AF37] rounded-lg py-3.5 px-4 text-black text-center placeholder-gray-500 focus:outline-none focus:border-[#F9D423] mb-4" />
+          <button onClick={handleJourneySubmit} disabled={!amount} className="w-full bg-[#F9D423] text-black font-bold py-3.5 px-6 rounded-lg text-base hover:bg-[#E5C31F] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">Continuar</button>
         </div>
       </div>
     </div>
@@ -547,22 +547,22 @@ export default function UnifiedQuiz() {
           <div className="w-full max-w-sm bg-[#0d0d1a]/95 rounded-xl border-2 border-[#D4AF37] p-5">
             <div className="flex items-center justify-center gap-2 mb-5">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" className="text-[#D4AF37]"><circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" /><path d="M8 12l2.5 2.5L16 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-              <span className="text-[#D4AF37] text-xl font-bold tracking-wide">UNLOCKED!</span>
+              <span className="text-[#D4AF37] text-xl font-bold tracking-wide">¡DESBLOQUEADO!</span>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="#D4AF37" className="animate-spin-slow"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10L12 0Z" /></svg>
             </div>
             <div className="flex justify-center mb-5">
               <div className="w-40 h-40 rounded-xl border-2 border-[#D4AF37] overflow-hidden">
-                <Image src="/images/100x-multiplication.jpg" alt="Golden abundance" width={160} height={160} className="object-cover w-full h-full" />
+                <Image src="/images/100x-multiplication.jpg" alt="Abundancia dorada" width={160} height={160} className="object-cover w-full h-full" />
               </div>
             </div>
-            <h2 className="text-[#D4AF37] text-2xl font-bold text-center mb-3">100x Multiplication</h2>
-            <p className="text-white text-center text-base mb-5 leading-relaxed">{name}, today I{"'"}m adding 100x more to your account {"—"} do you believe?</p>
+            <h2 className="text-[#D4AF37] text-2xl font-bold text-center mb-3">Multiplicación 100x</h2>
+            <p className="text-white text-center text-base mb-5 leading-relaxed">{name}, hoy estoy añadiendo 100x más a tu cuenta {"—"} ¿lo crees?</p>
             <div className="bg-[#1a1a2e] rounded-lg py-3 px-4 mb-4">
-              <p className="text-center"><span className="text-[#D4AF37] font-bold text-lg">New Balance: </span><span className="text-[#D4AF37] font-bold text-lg">${displayBalance}</span></p>
+              <p className="text-center"><span className="text-[#D4AF37] font-bold text-lg">Nuevo Saldo: </span><span className="text-[#D4AF37] font-bold text-lg">${displayBalance}</span></p>
             </div>
             <button onClick={handleContinue} className="w-full bg-[#F9D423] text-black font-bold py-3.5 px-6 rounded-lg text-base hover:bg-[#E5C31F] transition-colors flex items-center justify-center gap-2">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>
-              YES! I receive 100x more!
+              ¡SÍ! ¡Recibo 100x más!
             </button>
           </div>
         </div>
@@ -584,11 +584,11 @@ export default function UnifiedQuiz() {
         </div>
         <div className="relative z-10 w-full flex flex-col items-center px-4 pt-6 pb-8">
           <div className="mb-4"><Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={60} height={60} className="object-contain" priority /></div>
-          <h1 className="text-[#D4AF37] text-xl font-bold text-center mb-3">Hello, {name} Your Journey has begun...</h1>
-          <p className="text-gray-400 text-sm tracking-wider mb-1">ACCOUNT BALANCE</p>
+          <h1 className="text-[#D4AF37] text-xl font-bold text-center mb-3">Hola, {name} Tu Viaje ha comenzado...</h1>
+          <p className="text-gray-400 text-sm tracking-wider mb-1">SALDO DE CUENTA</p>
           <p className="text-[#D4AF37] text-3xl font-bold mb-4 animate-pulse-gold">${formatBalance(balance)}</p>
           <div className="w-full max-w-md mb-4">
-            <p className="text-[#D4AF37] text-sm italic animate-pulse-gold mb-2">Your energy is aligning with the divine...</p>
+            <p className="text-[#D4AF37] text-sm italic animate-pulse-gold mb-2">Tu energía se está alineando con lo divino...</p>
             <div className="flex justify-end mb-1"><span className="text-gray-400 text-sm">{data.progress}%</span></div>
             <div className="relative w-full h-[6px] bg-[#1a2744] rounded-full">
               <div className="absolute left-0 top-1/2 -translate-y-1/2 w-4 h-3 bg-[#F9D423] rounded-full z-10" />
@@ -611,7 +611,7 @@ export default function UnifiedQuiz() {
                     <div className="w-14 h-14 rounded-lg bg-[#2a2a3e] flex items-center justify-center mb-1">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-gray-500"><rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" strokeWidth="2" /><path d="M8 11V7a4 4 0 118 0v4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
                     </div>
-                    <span className="text-gray-500 text-[10px] font-medium">Locked</span>
+                    <span className="text-gray-500 text-[10px] font-medium">Bloqueado</span>
                   </div>
                 )
               })}
@@ -622,7 +622,7 @@ export default function UnifiedQuiz() {
             {isLoading ? (
               <div className="flex flex-col items-center py-8">
                 <div className="w-12 h-12 border-4 border-[#D4AF37] border-t-transparent rounded-full animate-spin mb-4" />
-                <p className="text-[#D4AF37] text-base font-medium mb-2">Processing your answer...</p>
+                <p className="text-[#D4AF37] text-base font-medium mb-2">Procesando tu respuesta...</p>
                 <div className="flex gap-1">
                   <span className="w-2 h-2 bg-[#D4AF37] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
                   <span className="w-2 h-2 bg-[#D4AF37] rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
@@ -662,7 +662,7 @@ export default function UnifiedQuiz() {
               <div className="w-8 h-8 rounded-full border-2 border-[#D4AF37] flex items-center justify-center">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-[#D4AF37]"><path d="M5 13l4 4L19 7" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </div>
-              <h1 className="text-[#D4AF37] text-2xl font-bold tracking-wide">UNLOCKED!</h1>
+              <h1 className="text-[#D4AF37] text-2xl font-bold tracking-wide">¡DESBLOQUEADO!</h1>
               <div className="animate-spin-slow">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" className="text-[#D4AF37]"><path d="M12 2L14.09 8.26L20.18 8.63L15.54 12.74L16.91 18.72L12 15.27L7.09 18.72L8.46 12.74L3.82 8.63L9.91 8.26L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </div>
@@ -676,7 +676,7 @@ export default function UnifiedQuiz() {
             <p className="text-gray-300 text-base text-center mb-6 leading-relaxed">{data.description}</p>
             <button onClick={handleContinue} className="w-full bg-[#F9D423] hover:bg-[#E5C31F] text-black font-bold py-4 px-6 rounded-lg flex items-center justify-center gap-2 transition-all active:scale-[0.98]">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="text-black"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="currentColor" /></svg>
-              <span className="text-lg">{data.buttonText || "Continue Evolution"}</span>
+              <span className="text-lg">{data.buttonText || "Continuar Evolución"}</span>
             </button>
           </div>
         </div>
@@ -724,15 +724,15 @@ export default function UnifiedQuiz() {
             <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={80} height={80} className="object-contain" priority />
           </div>
           <h1 className="text-white text-[28px] font-bold text-center mb-6 leading-tight">
-            {name.toLowerCase()}, you{"'"}ve made it this<br />far... and that{"'"}s no<br />accident.
+            {name.toLowerCase()}, has llegado<br />hasta aquí... y eso no<br />es casualidad.
           </h1>
           <p className="text-[#D4AF37] text-lg text-center mb-4 leading-relaxed italic">
-            Today is {currentDate} {"–"} the first day<br />of your new reality.
+            Hoy es {currentDate} {"–"} el primer día<br />de tu nueva realidad.
           </p>
           <div className="w-32 h-2 bg-[#D4AF37] rounded-full mb-8 animate-pulse-soft" />
 
           {/* Vturb Video Embed */}
-          <h2 className="text-[#F9D423] text-xl font-bold text-center mb-4">Watch the video below to claim your blessing</h2>
+          <h2 className="text-[#F9D423] text-xl font-bold text-center mb-4">Mira el video a continuación para reclamar tu bendición</h2>
           <div className="w-full max-w-md">
             <div ref={vturbRef} className="w-full rounded-2xl overflow-hidden border border-[#D4AF37]/40 shadow-[0_0_20px_rgba(212,175,55,0.25)]" />
           </div>
@@ -748,17 +748,17 @@ export default function UnifiedQuiz() {
           {showOffer && (
             <div ref={offerRef} className="w-full max-w-md mt-10 flex flex-col items-center animate-fade-in-offer">
               <h2 className="text-[#F9D423] text-2xl font-bold italic text-center mb-8">
-                {name}, Make your choice now!
+                {name}, ¡Haz tu elección ahora!
               </h2>
 
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$0", desc: "The life that stays as it is.", image: "/images/seed-barren.jpg", gold: false, link: "https://v0-ichoosethislfe.vercel.app/" },
-                  { price: "$27", desc: "The life that begins to awaken.", image: "/images/seed-sprout.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205950634:1" },
-                  { price: "$47", desc: "The life that grows with purpose.", image: "/images/seed-tree.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951168:1" },
-                  { price: "$77", desc: "The life of full abundance and manifestation.", image: "/images/seed-golden.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951171:1" },
-                  { price: "$100", desc: "The life of divine overflow and miracles.", image: "/images/seed-divine.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951174:1" },
+                  { price: "$0", desc: "La vida que se queda como está.", image: "/images/seed-barren.jpg", gold: false, link: "https://v0-ichoosethislfe.vercel.app/" },
+                  { price: "$27", desc: "La vida que comienza a despertar.", image: "/images/seed-sprout.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205950634:1" },
+                  { price: "$47", desc: "La vida que crece con propósito.", image: "/images/seed-tree.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951168:1" },
+                  { price: "$77", desc: "La vida de abundancia y manifestación plena.", image: "/images/seed-golden.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951171:1" },
+                  { price: "$100", desc: "La vida de desbordamiento divino y milagros.", image: "/images/seed-divine.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951174:1" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
@@ -778,7 +778,7 @@ export default function UnifiedQuiz() {
                           : "bg-[#2a2a3a] text-[#8a8a9a] border border-[#3a3a4a]"
                       }`}
                     >
-                      {"This is the life I choose"} {"–"} {seed.price}
+                      {"Esta es la vida que elijo"} {"–"} {seed.price}
                     </a>
                   </div>
                 ))}
@@ -800,7 +800,7 @@ export default function UnifiedQuiz() {
                   <Check className="w-4 h-4 text-[#8B7500]" strokeWidth={3} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-[#1a1a00] font-bold text-xs leading-none mb-0.5">PROCESSING</p>
+                  <p className="text-[#1a1a00] font-bold text-xs leading-none mb-0.5">PROCESANDO</p>
                   <p className="text-[#1a1a00] text-xs leading-tight">{notifications[notif.index].emoji} {notifications[notif.index].text}</p>
                 </div>
                 <Star className="w-4 h-4 text-[#8B7500] flex-shrink-0 animate-spin-slow" />
@@ -813,8 +813,8 @@ export default function UnifiedQuiz() {
         <div className="flex flex-col items-center mb-8 mt-8">
           <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={70} height={70} className="object-contain" priority />
         </div>
-        <h1 className="text-white text-[26px] font-bold text-center mb-6 leading-tight">{name.toUpperCase()}, your Divine<br />Manifestation<br />Script is being<br />created...</h1>
-        <p className="text-[#D4AF37] text-lg text-center mb-10 leading-relaxed">Processing your answers<br />with divine precision</p>
+        <h1 className="text-white text-[26px] font-bold text-center mb-6 leading-tight">{name.toUpperCase()}, tu Guion<br />de Manifestación<br />Divina está siendo<br />creado...</h1>
+        <p className="text-[#D4AF37] text-lg text-center mb-10 leading-relaxed">Procesando tus respuestas<br />con precisión divina</p>
         <div className="w-full max-w-sm mb-3">
           <div className="relative w-full h-3 bg-[#3a3a4a] rounded-full overflow-visible">
             <div className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-[#F9D423] rounded-full z-10 shadow-lg" style={{ left: `calc(${Math.min(progress, 100)}% - 8px)` }} />
@@ -828,7 +828,7 @@ export default function UnifiedQuiz() {
         {/* Achievements Unlocked - Single Cycling Card */}
         {visiblePortalCount > 0 && (
           <div className="w-full max-w-sm mb-8 flex flex-col items-center">
-            <p className="text-[#D4AF37] text-sm font-bold tracking-widest uppercase mb-4">Achievements Unlocked</p>
+            <p className="text-[#D4AF37] text-sm font-bold tracking-widest uppercase mb-4">Logros Desbloqueados</p>
             <div className="relative w-64 h-64 rounded-2xl overflow-hidden border-2 border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.4)] mb-3">
               <Image
                 key={portals[Math.min(visiblePortalCount - 1, portals.length - 1)].name}
@@ -842,7 +842,7 @@ export default function UnifiedQuiz() {
                   <div className="w-6 h-6 bg-[#F9D423] rounded-full flex items-center justify-center">
                     <Check className="w-4 h-4 text-black" strokeWidth={3} />
                   </div>
-                  <span className="text-[#D4AF37] text-sm font-bold tracking-wider">UNLOCKED</span>
+                  <span className="text-[#D4AF37] text-sm font-bold tracking-wider">DESBLOQUEADO</span>
                 </div>
                 <h3 className="text-white text-xl font-bold text-center">
                   {portals[Math.min(visiblePortalCount - 1, portals.length - 1)].name}
@@ -852,8 +852,8 @@ export default function UnifiedQuiz() {
           </div>
         )}
         <div className="w-full max-w-sm text-center mt-4">
-          <p className="text-[#F9D423] text-lg italic leading-relaxed mb-2">{"\"We're preparing your Divine"}<br />{"Manifestation Script, based"}<br />{"on everything you've told us,"}<br />{name}...{"\""}</p>
-          <p className="text-gray-400 text-sm mb-4">You will be redirected automatically</p>
+          <p className="text-[#F9D423] text-lg italic leading-relaxed mb-2">{"\"Estamos preparando tu Guion"}<br />{"de Manifestación Divina, basado"}<br />{"en todo lo que nos has contado,"}<br />{name}...{"\""}</p>
+          <p className="text-gray-400 text-sm mb-4">Serás redirigido/a automáticamente</p>
           <div className="flex justify-center gap-2">
             <span className="w-3 h-3 bg-[#F9D423] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
             <span className="w-3 h-3 bg-[#F9D423] rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
