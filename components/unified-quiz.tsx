@@ -739,12 +739,12 @@ export default function UnifiedQuiz() {
 
           {/* Preload offer images hidden */}
           <div className="absolute w-0 h-0 overflow-hidden" aria-hidden="true">
-            {["/images/seed-barren.jpg", "/images/seed-sprout.jpg", "/images/seed-tree.jpg", "/images/seed-golden.jpg", "/images/seed-divine.jpg"].map((src) => (
+            {["/images/seed-sprout.jpg", "/images/seed-golden.jpg", "/images/seed-divine.jpg"].map((src) => (
               <Image key={src} src={src} alt="" width={1} height={1} priority />
             ))}
           </div>
 
-          {/* Offer Section - only visible after 7:28 of video */}
+          {/* Offer Section - only visible after 8:10 of video */}
           {showOffer && (
             <div ref={offerRef} className="w-full max-w-md mt-10 flex flex-col items-center animate-fade-in-offer">
               <h2 className="text-[#F9D423] text-2xl font-bold italic text-center mb-8">
@@ -754,17 +754,15 @@ export default function UnifiedQuiz() {
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$0", desc: "La vida que se queda como está.", image: "/images/seed-barren.jpg", gold: false, link: "https://v0-ichoosethislfe.vercel.app/" },
-                  { price: "$27", desc: "La vida que comienza a despertar.", image: "/images/seed-sprout.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205950634:1" },
-                  { price: "$47", desc: "La vida que crece con propósito.", image: "/images/seed-tree.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951168:1" },
-                  { price: "$77", desc: "La vida de abundancia y manifestación plena.", image: "/images/seed-golden.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951171:1" },
-                  { price: "$100", desc: "La vida de desbordamiento divino y milagros.", image: "/images/seed-divine.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951174:1" },
+                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://checkout.kashpay.com.br/checkout/checkout-1778966870903" },
+                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://checkout.kashpay.com.br/checkout/checkout-1778966936645" },
+                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://checkout.kashpay.com.br/checkout/checkout-1778966964665" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
                     <div className="w-full rounded-2xl overflow-hidden border border-[#D4AF37]/30">
                       <div className="relative w-full aspect-[4/3]">
-                        <Image src={seed.image} alt={seed.desc} fill className="object-cover" priority />
+                        <Image src={seed.image} alt={`Semilla ${seed.price}`} fill className="object-cover" priority />
                       </div>
                     </div>
                     {/* Button */}
@@ -772,11 +770,7 @@ export default function UnifiedQuiz() {
                       href={seed.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`w-full py-4 rounded-full text-center font-bold text-lg transition-all duration-300 active:scale-[0.97] block ${
-                        seed.gold
-                          ? "bg-[#F5A623] text-[#1a1a00] shadow-[0_0_20px_rgba(245,166,35,0.3)]"
-                          : "bg-[#2a2a3a] text-[#8a8a9a] border border-[#3a3a4a]"
-                      }`}
+                      className="w-full py-4 rounded-full text-center font-bold text-lg transition-all duration-300 active:scale-[0.97] block bg-[#F5A623] text-[#1a1a00] shadow-[0_0_20px_rgba(245,166,35,0.3)]"
                     >
                       {"Esta es la vida que elijo"} {"–"} {seed.price}
                     </a>
