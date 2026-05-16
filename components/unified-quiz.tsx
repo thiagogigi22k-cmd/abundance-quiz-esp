@@ -419,7 +419,7 @@ export default function UnifiedQuiz() {
   // Load Vturb script when final screen completes
   useEffect(() => {
     if (!isComplete) return
-    const DELAY_SECONDS = 448 // 7:28
+    const DELAY_SECONDS = 490 // 8:10
     const timer = setTimeout(() => {
       if (vturbRef.current && !vturbRef.current.querySelector("vturb-smartplayer")) {
         const player = document.createElement("vturb-smartplayer")
