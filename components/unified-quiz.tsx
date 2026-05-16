@@ -54,14 +54,14 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
   },
   {
     type: "question",
-    question: "¿Te sientes atrapado/a en los mismos ciclos negativos durante años?",
-    options: ["Sí, se siente como un bucle", "A veces siento esto", "No estoy seguro/a"],
+    question: "¿Te sientes atrapado en los mismos ciclos negativos durante años?",
+    options: ["Sí, se siente como un bucle", "A veces siento esto", "No estoy seguro"],
     badge: "Despertar Financiero",
     progress: 19,
   },
   {
     type: "question",
-    question: "Si la vida que vives hoy fuera el resultado directo de tus propias decisiones... ¿estarías satisfecho/a?",
+    question: "Si la vida que vives hoy fuera el resultado directo de tus propias decisiones... ¿estarías satisfecho?",
     options: ["No, quiero cambiar", "Más o menos", "Sí, pero quiero más"],
     badge: "Despertar Financiero",
     progress: 24,
@@ -85,7 +85,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     options: [
       "Tomaría acción como alguien que cree en milagros",
       "Daría un pequeño paso con miedo... pero aún así daría un paso",
-      "Me quedaría paralizado/a... una vez más... como las otras veces que me rendí",
+      "Me quedaría paralizado... una vez más... como las otras veces que me rendí",
     ],
     badge: "Fe y Propósito Espiritual",
     progress: 33,
@@ -99,8 +99,8 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
   },
   {
     type: "question",
-    question: "¿Estás dispuesto/a a hacer de HOY tu día de fe y responsabilidad por tu nueva vida?",
-    options: ["Sí, estoy listo/a", "Necesito una señal más clara", "No"],
+    question: "¿Estás dispuesto a hacer de HOY tu día de fe y responsabilidad por tu nueva vida?",
+    options: ["Sí, estoy listo", "Necesito una señal más clara", "No"],
     badge: "Fe y Propósito Espiritual",
     progress: 43,
   },
@@ -223,9 +223,9 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "question",
     question: "¿Cuál de estas afirmaciones te describe mejor?",
     options: [
-      "Me siento maldecido/a, nada me sale bien",
+      "Me siento maldecido, nada me sale bien",
       "Mi vida nunca ha sido fácil",
-      "No me siento merecedor/a",
+      "No me siento merecedor",
       "Me falta energía y motivación",
     ],
     badge: "Rompiendo Bloqueos",
@@ -240,7 +240,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
   {
     type: "question",
     question: "¿Aceptas ser parte de un grupo de personas que decidieron crear la vida de sus sueños a través del poder de la fe?",
-    options: ["Sí, acepto", "No estoy seguro/a", "Necesito pensarlo"],
+    options: ["Sí, acepto", "No estoy seguro", "Necesito pensarlo"],
     badge: "Elección Final",
     progress: 86,
   },
@@ -254,7 +254,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
   {
     type: "question",
     question: "Si Dios te diera la oportunidad de comenzar de nuevo hoy... ¿aceptarías?",
-    options: ["Sí, sin dudarlo", "Sí, pero con algo de miedo", "No estoy listo/a"],
+    options: ["Sí, sin dudarlo", "Sí, pero con algo de miedo", "No estoy listo"],
     badge: "Elección Final",
     progress: 95,
   },
@@ -312,7 +312,7 @@ const portals = [
 export default function UnifiedQuiz() {
   const searchParams = useSearchParams()
   const [currentStep, setCurrentStep] = useState(0)
-  const [name, setName] = useState(searchParams.get("name") || "Amigo/a")
+  const [name, setName] = useState(searchParams.get("name") || "Amigo")
   const [amount, setAmount] = useState("")
   const [balance, setBalance] = useState(0)
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
@@ -853,7 +853,7 @@ export default function UnifiedQuiz() {
         )}
         <div className="w-full max-w-sm text-center mt-4">
           <p className="text-[#F9D423] text-lg italic leading-relaxed mb-2">{"\"Estamos preparando tu Guion"}<br />{"de Manifestación Divina, basado"}<br />{"en todo lo que nos has contado,"}<br />{name}...{"\""}</p>
-          <p className="text-gray-400 text-sm mb-4">Serás redirigido/a automáticamente</p>
+          <p className="text-gray-400 text-sm mb-4">Serás redirigido automáticamente</p>
           <div className="flex justify-center gap-2">
             <span className="w-3 h-3 bg-[#F9D423] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
             <span className="w-3 h-3 bg-[#F9D423] rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
