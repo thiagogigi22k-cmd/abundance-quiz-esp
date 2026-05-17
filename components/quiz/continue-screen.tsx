@@ -13,8 +13,8 @@ export function ContinueScreen({ name, onContinue }: ContinueScreenProps) {
       {/* Logo */}
       <div className="mb-8">
         <Image
-          src="/images/logo.png"
-          alt="The Age of Abundance"
+          src="/images/logo-es.png"
+          alt="La Era de la Abundancia"
           width={160}
           height={160}
           className="object-contain mx-auto"

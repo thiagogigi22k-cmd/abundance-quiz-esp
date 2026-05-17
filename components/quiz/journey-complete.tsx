@@ -22,8 +22,8 @@ export function JourneyComplete({ name }: JourneyCompleteProps) {
       <div className="mb-6">
         <div className="w-28 h-28 relative mx-auto">
           <Image
-            src="/images/logo.png"
-            alt="The Age of Abundance"
+            src="/images/logo-es.png"
+            alt="La Era de la Abundancia"
             width={112}
             height={112}
             className="w-full h-full object-contain"

@@ -97,8 +97,8 @@ function QuizContent() {
           <div className="mb-4 flex justify-center">
             <div className="w-16 h-16 relative">
               <Image
-                src="/images/logo.png"
-                alt="The Age of Abundance"
+                src="/images/logo-es.png"
+                alt="La Era de la Abundancia"
                 width={64}
                 height={64}
                 className="w-full h-full object-contain"
