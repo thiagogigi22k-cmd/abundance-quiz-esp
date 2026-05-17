@@ -39,8 +39,8 @@ export default function JourneyContent() {
         {/* Logo - small */}
         <div className="mb-4">
           <Image
-            src="/images/logo.png"
-            alt="The Age of Abundance"
+            src="/images/logo-es.png"
+            alt="La Era de la Abundancia"
             width={80}
             height={80}
             className="object-contain"

@@ -33,8 +33,8 @@ export default function Home() {
       <div className="relative z-10 w-full max-w-md px-6 py-8 flex flex-col items-center justify-center text-center">
         <div className="mb-8 flex justify-center">
           <Image
-            src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png"
-            alt="The Age of Abundance"
+            src="/images/logo-es.png"
+            alt="La Era de la Abundancia"
             width={200}
             height={200}
             className="object-contain"

@@ -28,8 +28,8 @@ export default function ContinueContent() {
         <div className="mb-4 flex justify-center">
           <div className="w-28 h-28 relative">
             <Image
-              src="/images/logo.png"
-              alt="The Age of Abundance"
+              src="/images/logo-es.png"
+              alt="La Era de la Abundancia"
               width={112}
               height={112}
               className="w-full h-full object-contain"
