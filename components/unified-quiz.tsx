@@ -754,9 +754,9 @@ export default function UnifiedQuiz() {
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://checkout.kashpay.com.br/checkout/checkout-1778966870903" },
-                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://checkout.kashpay.com.br/checkout/checkout-1778966936645" },
-                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://checkout.kashpay.com.br/checkout/checkout-1778966964665" },
+                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://ageofabundance.mycartpanda.com/checkout/210183499:1" },
+                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://ageofabundance.mycartpanda.com/checkout/210183496:1" },
+                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://ageofabundance.mycartpanda.com/checkout" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
