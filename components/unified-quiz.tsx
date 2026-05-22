@@ -756,7 +756,7 @@ export default function UnifiedQuiz() {
                 {[
                   { price: "$17", image: "/images/seed-sprout.jpg", link: "https://ageofabundance.mycartpanda.com/checkout/210183499:1" },
                   { price: "$27", image: "/images/seed-golden.jpg", link: "https://ageofabundance.mycartpanda.com/checkout/210183496:1" },
-                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://ageofabundance.mycartpanda.com/checkout" },
+                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://ageofabundance.mycartpanda.com/checkout/210183451:1" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
