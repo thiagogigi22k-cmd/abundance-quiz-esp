@@ -754,9 +754,9 @@ export default function UnifiedQuiz() {
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://www.checkout-ds24.com/product/711780" },
-                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://www.checkout-ds24.com/product/711777" },
-                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://www.checkout-ds24.com/product/711774" },
+                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://pay.choicedivinelight.com/checkout/checkout-1778966870903" },
+                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://pay.choicedivinelight.com/checkout/checkout-1778966936645" },
+                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://pay.choicedivinelight.com/checkout/checkout-1778966964665" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
