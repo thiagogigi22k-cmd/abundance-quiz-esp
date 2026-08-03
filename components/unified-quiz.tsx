@@ -754,9 +754,9 @@ export default function UnifiedQuiz() {
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://checkout.cooud.com/01KYTFGBYQ5BPP9EF8GJ293G99" },
-                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://checkout.cooud.com/01KYTFFGZAX4EKQB1E73F4Q4A0" },
-                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://checkout.cooud.com/01KYZPEFHN0V6QXQHNP48AJ22T" },
+                  { price: "$17", image: "/images/seed-sprout.jpg", link: "https://instituteabundance.salduu.com/p/la-era-de-la-abundanci33?pay=true" },
+                  { price: "$27", image: "/images/seed-golden.jpg", link: "https://instituteabundance.salduu.com/p/la-era-de-la-abundancia-27?pay=true" },
+                  { price: "$37", image: "/images/seed-divine.jpg", link: "https://instituteabundance.salduu.com/p/laera?pay=true" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
