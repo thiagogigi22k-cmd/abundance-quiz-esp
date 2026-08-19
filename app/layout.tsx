@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
+        <meta name="referrer" content="no-referrer" />
         <script dangerouslySetInnerHTML={{ __html: `!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);` }} />
         <link rel="preload" href="https://scripts.converteai.net/f8e465b5-f483-4d08-be19-bc14de388e59/players/6a087eb0dca0bf66780c5301/v4/player.js" as="script" />
         <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script" />

