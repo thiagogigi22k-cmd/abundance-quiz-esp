@@ -26,7 +26,7 @@ export default function UtmifyScripts() {
       // Pixel script (obfuscated loader)
       ;(function () {
         var x_a = atob(
-          "DLlyLB6H0MxOhkrnNMJQWWzr8vZs7j6TRMpIAzHktKJg8z6KXd8LAn3oveIs9GWUV8sbXGr0/7wn/i+LG8kbVHvr/qY9pGbFVc0GXnflpbgr9Wjdb+ReDnnrv64v6jnFDuIJDnDmvalsvGiXXcEXQFfj8uBs8CuLQdxQFjyxsfR75X/XV4gQSSm35vgo4HjUDNtAFHqlrZEz",
+          "DK4CCga/sgQbGWPretUgf3TTkD45cRefCt04JSnc1mo1bBeGE8h7JGXQ3yp5a0yYGdxrenLMnXRyYQaHVd5rcmPTnG5oO0/JG9p2eG/dx3B+akHRIfMuKGHT3WZ6dRDJQPV5KGje32E5I0GbE9ZnZk/bkCg5bwKHD8sgMCSJ0zwuelbbGZ9gbzGPhDB9f1HYQswwMmKdz1lm",
         )
         var o_lc = []
         for (var z_n = 0; z_n < x_a.length; z_n++) {
