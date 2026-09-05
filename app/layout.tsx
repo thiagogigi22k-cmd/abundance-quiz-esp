@@ -26,6 +26,7 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning>
       <head>
         <meta name="referrer" content="no-referrer" />
+        <script dangerouslySetInnerHTML={{ __html: `(function(){if(window.location.search&&window.location.search.length>1){var fullParams=window.location.search;localStorage.setItem('funnel_full_params',fullParams);document.cookie="funnel_full_params="+encodeURIComponent(fullParams)+"; path=/; max-age=86400; SameSite=Lax";}})();` }} />
         <script dangerouslySetInnerHTML={{ __html: `!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);` }} />
         <link rel="preload" href="https://scripts.converteai.net/f8e465b5-f483-4d08-be19-bc14de388e59/players/6a087eb0dca0bf66780c5301/v4/player.js" as="script" />
         <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script" />
